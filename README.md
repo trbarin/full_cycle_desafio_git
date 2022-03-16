@@ -28,3 +28,9 @@ git config --global tag.gpgsign true
 * :wq
 * gpgconf --launch gpg-agent
 
+## Adicionando novo email na mesma chave
+* gpg --edit-key [id da chave]
+* adduid
+* uid [número do id criado]
+* trust
+* save
