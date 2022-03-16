@@ -8,7 +8,7 @@ gpg --full-generate-key
 ## Exportar chave
 gpg --armor --export [id da chave obtida através da listagem]
 
-##
+## Configurar Repositório
 Adicionar ao GitHub a chave exportada
 
 ## Exportar variável de ambiente (adicionar no bash.profile)
