@@ -15,7 +15,16 @@ Adicionar ao GitHub a chave exportada
 export GPG_TTY=$(tty)
 
 ## Configurar Git
+git config --global user.signingkey [id da chave obtida através da listagem]
+
 git config --global commit.gpgsign true
 
 git config --global tag.gpgsign true
+
+## Criando Agent
+* vim ~/.gnupg/gpg.conf
+* user-agent
+* ESC
+* :wq
+* gpgconf --launch gpg-agent
 
