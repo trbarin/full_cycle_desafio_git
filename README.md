@@ -16,5 +16,6 @@ export GPG_TTY=$(tty)
 
 ## Configurar Git
 git config --global commit.gpgsign true
+
 git config --global tag.gpgsign true
 
