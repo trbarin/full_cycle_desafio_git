@@ -23,7 +23,7 @@ git config --global tag.gpgsign true
 
 ## Criando Agent
 * vim ~/.gnupg/gpg.conf
-* user-agent
+* use-agent
 * ESC
 * :wq
 * gpgconf --launch gpg-agent
